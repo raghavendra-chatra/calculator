@@ -3,7 +3,7 @@ from PyQt6.QtGui import QIcon, QFont, QKeyEvent
 from PyQt6.QtCore import Qt
 import sys
 
-
+# extending QTextEdit to override keyPressEvent
 class MyTextEdit(QTextEdit):
     keyList = {Qt.Key.Key_0.value : '0',
                Qt.Key.Key_1.value : '1',
